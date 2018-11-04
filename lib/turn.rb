@@ -11,7 +11,7 @@ display_board(board)
 
 def valid_move?(board, index)
   if index < 8 = true
-  else > 8 = false 
+  else index > 8 = false 
 end
 
 # valid_move?(board,)
